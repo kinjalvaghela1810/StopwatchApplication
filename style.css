@@ -15,3 +15,30 @@ body {
   text-align: center;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+.stopwatch-box .stopwatch-timer{
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.stopwatch-box .display-message {
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.stopwatch-box .stopwatch-btns a{
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s;
+}
+.stopwatch-box .stopwatch-btns a:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
